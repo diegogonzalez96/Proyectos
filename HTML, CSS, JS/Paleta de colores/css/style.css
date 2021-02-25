@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Modak&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+h1{
+    text-align: center;
+    font-size: 6em;
+    color: black;
+}
+
+.visualizar{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    width: 7em;
+    height: 7em;
+    border: 3px solid #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+#color{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 120px;
+    height: 22px;
+    transform: translate(-50%, -50%);
+}

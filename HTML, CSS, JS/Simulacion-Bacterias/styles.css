@@ -1,0 +1,96 @@
+
+body{
+    background-color:gray;
+}
+
+.foot{
+    padding-top: 70px;
+    text-align: center;
+}
+
+.container{
+    padding-top: 0px;
+    text-align: center;
+}
+
+/* ESTILOS CON EFECTOS - TITULO*/
+
+.bg-5{
+    
+  }
+ 
+ .animated-shadow {
+   color: #ffffff;
+   font: normal 90px Varela Round, sans-serif;
+   height: 100px;
+   left: 0;
+   letter-spacing: 5px;
+   text-align: center;
+   text-transform: uppercase;
+   width: 100%;
+   animation: move linear 2000ms infinite;
+   z-index: 2;
+ }
+ /*Animación para rotar las sombras*/
+ @keyframes move {
+   0% {
+     text-shadow:
+       4px -4px 0 #da0641,
+       3px -3px 0 #da0641,
+       2px -2px 0 #da0641,
+       1px -1px 0 #da0641,
+       -4px 4px 0 #13f1fc,
+       -3px 3px 0 #13f1fc,
+       -2px 2px 0 #13f1fc,
+       -1px 1px 0 #13f1fc
+     ;
+   }
+   25% {
+     text-shadow:
+       -4px -4px 0 #13f1fc,
+       -3px -3px 0 #13f1fc,
+       -2px -2px 0 #13f1fc,
+       -1px -1px 0 #13f1fc,
+       4px 4px 0 #da0641,
+       3px 3px 0 #da0641,
+       2px 2px 0 #da0641,
+       1px 1px 0 #da0641
+     ;
+   }
+   50% {
+     text-shadow:
+       -4px 4px 0 #da0641,
+       -3px 3px 0 #da0641,
+       -2px 2px 0 #da0641,
+       -1px 1px 0 #da0641,
+       4px -4px 0 #13f1fc,
+       3px -3px 0 #13f1fc,
+       2px -2px 0 #13f1fc,
+       1px -1px 0 #13f1fc
+     ;
+   }
+   75% {
+     text-shadow:
+       4px 4px 0 #13f1fc,
+       3px 3px 0 #13f1fc,
+       2px 2px 0 #13f1fc,
+       1px 1px 0 #13f1fc,
+       -4px -4px 0 #da0641,
+       -3px -3px 0 #da0641,
+       -2px -2px 0 #da0641,
+       -1px -1px 0 #da0641
+     ;
+   }
+   100% {
+     text-shadow:
+       4px -4px 0 #da0641,
+       3px -3px 0 #da0641,
+       2px -2px 0 #da0641,
+       1px -1px 0 #da0641,
+       -4px 4px 0 #13f1fc,
+       -3px 3px 0 #13f1fc,
+       -2px 2px 0 #13f1fc,
+       -1px 1px 0 #13f1fc
+     ;
+   }
+ }
