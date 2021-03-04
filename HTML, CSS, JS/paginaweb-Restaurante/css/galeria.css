@@ -2,7 +2,7 @@
     object-fit: cover;
     margin-bottom: 10px;
     cursor: pointer;
-    transition: all 0.5s:
+    transition: all 0.5s;
 }
 .gallery__img:hover {
     transform: scale(1.02);
